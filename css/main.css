@@ -1,0 +1,229 @@
+/*.main-header {
+	color: rgb(200 0 0);
+
+	background-color: #00c5ff;
+
+	/*background-image: url(../images/car-1.jpg);*/
+	/*height: 18em;*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: 100% 0;*/
+	/*animation: animate 20s linear infinite;*/
+	/*display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;*/
+	/*align-items: stretch;*/
+	/*justify-content: space-between;*/
+	/*width: 100%;*/
+
+/*@keyframes animate{
+ 	from{
+ 		background-position: 100% 0;
+ 	}
+ 	to{
+ 		background-position:0 0;
+ 	}
+ }
+*/
+header{
+	background-color: grey;
+}
+nav{
+	background-color: black;
+	
+}
+
+nav ul{
+	margin-bottom: 0;
+	font-size:3rem;	
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+nav ul li{
+	
+	cursor: pointer;
+	padding: 0px;
+	margin: 0;
+}
+
+@media all and (max-width: 480px) {
+	nav ul{
+		flex-direction: column;
+		  }
+	nav ul li{
+			text-align: left;
+			}
+}
+header h1{
+	float:right;
+	color: red;
+}
+
+
+
+/* moving header background */
+
+ 
+
+ 
+ .container-fluid{
+ 	font-size: 18px;
+ 	word-spacing: .1em;
+	font-family: "times new roman", times, serif;
+ 	color: black;
+ 	margin: 0 0;
+ 	background-image: url(../images/hero.jpg);
+ 	height: 100%;
+ 	width: 100%;
+ 	background-repeat: no-repeat;
+ 	background-position:center;
+ 	background-attachment: fixed; 
+ 	background-size:cover;
+ }
+
+ .carousel-caption h3 p{
+ 	color: black;
+ }
+
+ .col-sm-12{
+ 	width: 100%;
+ }
+
+#Products{
+ 	background-color: blue;
+ 	height: 20em;
+ 	overflow:hidden;
+ }
+ #products .col-sm-6 .col-md-4{
+ 	margin: 0 10px;
+ }
+
+#careers{
+	background-color: white;
+ 	height: 20em; 	
+ 	overflow:hidden;	
+ }
+ #careers .col-sm-6 .col-md-4{
+ 	margin: 0 10px;
+ }
+ #recent-ventures{
+	height: 20em;
+ 	overflow:hidden;
+	background-color: blue;
+}
+#recent-ventures.col-sm-6 .col-md-4{
+ 	margin: 0 10px;
+  }
+  #about-us{
+	background-color: white;
+ 	height: 12em; 	
+ 	overflow:hidden;
+ 	}
+ 	 #csr{
+	background-color: blue;
+ 	height: 12em; 	
+ 	overflow:hidden;
+ 	}	
+ 	 #outreach{
+	background-color: white;
+ 	height: 12em; 	
+ 	overflow:hidden;
+ 	}
+/* @media only screen and (min-width: 600px) {
+             
+             .col-4{width: 33.3%;}
+             .col-6{width: 50%;}
+        }
+ @media only screen and (max-height:740px){
+ 	 	#careers{
+ 	 		background-color: #006699;
+ 	 	}
+ 	 	#Products{
+ 	 		background-color: #006699;
+ 	 	}
+ 	 	#recent-ventures{
+ 	 		background-color: #006699;
+ 	 	}
+ }*/
+
+
+#about-us{
+	margin-left: 0;
+	margin-right: 0;
+
+}
+#recent-ventures a{
+	color: red;
+}
+#careers a{
+	color: red;
+}
+#Products a{
+	color: red;
+}
+#about-us a{
+	color: red;
+}
+
+
+
+#csr a{
+	color:red;
+}
+
+.row{
+	margin: 0 2em;
+}
+
+
+ 
+
+form.myform label a{
+	/*background-color: white;*/
+	color:orange;
+}
+
+form #country{
+	background-color: orange;
+}
+form #submit{
+	background-color: orange;
+	margin-bottom: 5px;
+}
+
+.main-footer{
+	
+	margin-bottom: 1em;
+	margin-top: 1em;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	text-shadow: 2px 2px grey;
+}
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
